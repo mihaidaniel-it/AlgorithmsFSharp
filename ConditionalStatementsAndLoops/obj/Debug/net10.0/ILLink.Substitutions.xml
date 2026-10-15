@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="ConditionalStatementsAndLoops">
+    <resource name="FSharpSignatureData.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpOptimizationData.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.ConditionalStatementsAndLoops" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.ConditionalStatementsAndLoops" action="remove"></resource>
+  </assembly>
+</linker>

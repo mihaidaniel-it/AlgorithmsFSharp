@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2VStmpKUZUA=",
+  "success": true,
+  "projectFilePath": "/Users/danielmihai/Documents/F# - Rodac/ConditionalStatementsAndLoops/ConditionalStatementsAndLoops.fsproj",
+  "expectedPackageFiles": [
+    "/Users/danielmihai/.nuget/packages/fsharp.core/10.1.401/fsharp.core.10.1.401.nupkg.sha512"
+  ],
+  "logs": []
+}
