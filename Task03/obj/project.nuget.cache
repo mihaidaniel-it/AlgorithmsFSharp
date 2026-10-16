@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dxVX8RtUut0=",
+  "success": true,
+  "projectFilePath": "/Users/danielmihai/Documents/F# - Rodac/Task03/Task03.fsproj",
+  "expectedPackageFiles": [
+    "/Users/danielmihai/.nuget/packages/fsharp.core/10.1.401/fsharp.core.10.1.401.nupkg.sha512"
+  ],
+  "logs": []
+}
