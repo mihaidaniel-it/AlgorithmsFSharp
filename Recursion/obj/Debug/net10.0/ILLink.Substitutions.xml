@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="Recursion">
+    <resource name="FSharpSignatureData.Recursion" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.Recursion" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.Recursion" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.Recursion" action="remove"></resource>
+    <resource name="FSharpOptimizationData.Recursion" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.Recursion" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.Recursion" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.Recursion" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.Recursion" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.Recursion" action="remove"></resource>
+  </assembly>
+</linker>

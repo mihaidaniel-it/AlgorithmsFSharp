@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bW3ncx/Nm7k=",
+  "success": true,
+  "projectFilePath": "/Users/danielmihai/Documents/F# - Rodac/Recursion/Recursion.fsproj",
+  "expectedPackageFiles": [
+    "/Users/danielmihai/.nuget/packages/fsharp.core/10.1.401/fsharp.core.10.1.401.nupkg.sha512"
+  ],
+  "logs": []
+}
