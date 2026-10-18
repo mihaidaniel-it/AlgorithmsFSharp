@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("ConditionalStatementsAndLoops")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe3063d559b70075dda0a69cc2a0350a9fbea978")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4bd3656bfab74c8848a7ba40cf0e53be24b90a0")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("ConditionalStatementsAndLoops")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("ConditionalStatementsAndLoops")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danielmihai/Documents/F# - Rodac/task01/task01.fsproj": {}
+    "/Users/danielmihai/Documents/F# - Rodac/Task01/task01.fsproj": {}
   },
   "projects": {
-    "/Users/danielmihai/Documents/F# - Rodac/task01/task01.fsproj": {
+    "/Users/danielmihai/Documents/F# - Rodac/Task01/task01.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielmihai/Documents/F# - Rodac/task01/task01.fsproj",
+        "projectUniqueName": "/Users/danielmihai/Documents/F# - Rodac/Task01/task01.fsproj",
         "projectName": "task01",
-        "projectPath": "/Users/danielmihai/Documents/F# - Rodac/task01/task01.fsproj",
+        "projectPath": "/Users/danielmihai/Documents/F# - Rodac/Task01/task01.fsproj",
         "packagesPath": "/Users/danielmihai/.nuget/packages/",
-        "outputPath": "/Users/danielmihai/Documents/F# - Rodac/task01/obj/",
+        "outputPath": "/Users/danielmihai/Documents/F# - Rodac/Task01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danielmihai/.nuget/NuGet/NuGet.Config"
