@@ -19,14 +19,14 @@ printfn "Result without recursion: %A" functionResult
 
 // With recursion
 let twoSumRecursion (nums: int array) target = 
-    let rec findI i =
-        match i >= nums.Length with 
+    let rec findI i = 
+        match i >= nums.Length with
         | true -> [||]
-        | false ->
-            let rec findJ j= 
-                match j >= nums.Length with
+        | false -> 
+            let rec findJ j = 
+                match j >= nums.Length with 
                 | true -> findI (i + 1)
-                | false ->
+                | false -> 
                     match nums[i] + nums[j] = target with
                     | true -> [| i; j |]
                     | false -> findJ (j + 1)
@@ -34,7 +34,9 @@ let twoSumRecursion (nums: int array) target =
 
     findI 0
 
-printfn "Result with recursion: %A" (twoSum nums target)
+printfn "Result with recursion: %A" (twoSumRecursion nums target)
 
 
-            
+// 1. Если i НЕ больше длины массива - ищем j
+// 2. Если j НЕ больше длины сверяем на target, иначе ищем опять i
+// 3. Если target найден - возврат индексов, иначе ищем j
