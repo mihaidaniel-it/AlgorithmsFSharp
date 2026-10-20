@@ -1,6 +1,7 @@
 ﻿let nums = [| 3; 8; 12; 4; 7; 15; 2; 9 |]
 let target = 18
 
+// Basic variant 
 let twoSum (nums:int array) (target: int) =
     let mutable result = [||]
 
@@ -17,7 +18,7 @@ let functionResult = twoSum nums target
 printfn "Result without recursion: %A" functionResult
 
 
-// With recursion
+// With recursion + array
 let twoSumRecursion (nums: int array) target = 
     let rec findI i = 
         match i >= nums.Length with
@@ -36,7 +37,24 @@ let twoSumRecursion (nums: int array) target =
 
 printfn "Result with recursion: %A" (twoSumRecursion nums target)
 
+// With recursion + list
+let numsList = [3; 8; 12; 4; 7; 15; 2; 9]
+let targetList = 16
 
-// 1. Если i НЕ больше длины массива - ищем j
-// 2. Если j НЕ больше длины сверяем на target, иначе ищем опять i
-// 3. Если target найден - возврат индексов, иначе ищем j
+let twoSumRecursionList (numsList: int list) targetList = 
+    let rec findI i = 
+        match i >= List.length numsList with 
+        | true -> []
+        | false ->
+            let rec findJ j =
+                match j >= List.length numsList with
+                | true -> findI (i + 1)
+                | false ->
+                    match List.item i numsList + List.item j numsList = targetList with
+                    | true -> [List.item i numsList; List.item j numsList] 
+                    | false -> findJ (j + 1)
+            findJ (i + 1)
+
+    findI 0
+
+printfn "Result with recursion (list): %A = %i" (twoSumRecursionList numsList targetList) targetList
