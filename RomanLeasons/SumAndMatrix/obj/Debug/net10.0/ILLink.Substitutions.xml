@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="SumAndMatrix">
+    <resource name="FSharpSignatureData.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpOptimizationData.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.SumAndMatrix" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.SumAndMatrix" action="remove"></resource>
+  </assembly>
+</linker>

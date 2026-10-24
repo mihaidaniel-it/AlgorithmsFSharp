@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xb099HuueJo=",
+  "success": true,
+  "projectFilePath": "/Users/danielmihai/Documents/F# - Rodac/Roman_leasons/SumAndMatrix/SumAndMatrix.fsproj",
+  "expectedPackageFiles": [
+    "/Users/danielmihai/.nuget/packages/fsharp.core/10.1.401/fsharp.core.10.1.401.nupkg.sha512"
+  ],
+  "logs": []
+}
