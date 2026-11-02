@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielmihai/Documents/F# - Rodac/Roman_leasons/SumAndMatrix/SumAndMatrix.fsproj",
+      "projectUniqueName": "/Users/danielmihai/Documents/F# /RomanLeasons/SumAndMatrix/SumAndMatrix.fsproj",
       "projectName": "SumAndMatrix",
-      "projectPath": "/Users/danielmihai/Documents/F# - Rodac/Roman_leasons/SumAndMatrix/SumAndMatrix.fsproj",
+      "projectPath": "/Users/danielmihai/Documents/F# /RomanLeasons/SumAndMatrix/SumAndMatrix.fsproj",
       "packagesPath": "/Users/danielmihai/.nuget/packages/",
-      "outputPath": "/Users/danielmihai/Documents/F# - Rodac/Roman_leasons/SumAndMatrix/obj/",
+      "outputPath": "/Users/danielmihai/Documents/F# /RomanLeasons/SumAndMatrix/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/danielmihai/.nuget/NuGet/NuGet.Config"

@@ -35,9 +35,6 @@ let rec tOneGeneric2 (transform: 'a -> int) (t1: list<'a>) =
       (transform head) + tOneGeneric2 transform tail
 let s = tOneGeneric2 (fun i -> i) [1; 3; 4; 5]
 
-// For matrix
-let sumMatrix = tOneGeneric2 (tOneGeneric2 id)
-
 let tOneSum2 (t1: list<int * int * int>) = 
     tOneGeneric tupleSum t1
 
@@ -59,6 +56,27 @@ let rec tOneProduct (t1: list<int * int * int>) =
       a * b * c + tOneSum tail
 
 
+
+
+
+
+
+
 let sum2 x y = x + y
 let plus5 a = sum2 5 a
 let plus5' = sum2 5
+
+
+
+
+
+
+
+// For matrix
+let sumMatrix = tOneGeneric2 (tOneGeneric2 id)
+
+
+
+
+
+
