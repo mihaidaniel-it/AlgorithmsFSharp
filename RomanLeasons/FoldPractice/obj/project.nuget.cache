@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kDAO5RX6lLg=",
+  "success": true,
+  "projectFilePath": "/Users/danielmihai/Documents/F# /RomanLeasons/FoldPractice/FoldPractice.fsproj",
+  "expectedPackageFiles": [
+    "/Users/danielmihai/.nuget/packages/fsharp.core/10.1.401/fsharp.core.10.1.401.nupkg.sha512"
+  ],
+  "logs": []
+}
