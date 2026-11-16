@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("SumAndMatrix")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+638ac9db3ccda722c968934526ba242ae8164b7c")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22530bcb7ebd5fec40c46cd22860492e551847d9")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("SumAndMatrix")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("SumAndMatrix")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
