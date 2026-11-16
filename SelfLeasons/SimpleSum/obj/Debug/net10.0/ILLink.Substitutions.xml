@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="SimpleSum">
+    <resource name="FSharpSignatureData.SimpleSum" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.SimpleSum" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.SimpleSum" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.SimpleSum" action="remove"></resource>
+    <resource name="FSharpOptimizationData.SimpleSum" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.SimpleSum" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.SimpleSum" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.SimpleSum" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.SimpleSum" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.SimpleSum" action="remove"></resource>
+  </assembly>
+</linker>

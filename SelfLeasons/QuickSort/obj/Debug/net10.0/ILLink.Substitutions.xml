@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="QuickSort">
+    <resource name="FSharpSignatureData.QuickSort" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.QuickSort" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.QuickSort" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.QuickSort" action="remove"></resource>
+    <resource name="FSharpOptimizationData.QuickSort" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.QuickSort" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.QuickSort" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.QuickSort" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.QuickSort" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.QuickSort" action="remove"></resource>
+  </assembly>
+</linker>

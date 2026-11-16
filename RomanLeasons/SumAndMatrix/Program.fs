@@ -4,16 +4,17 @@ let rec sum nums =
     | [] -> 0        
     | head :: tail -> head + sum tail
 
-printfn "Result sum: %A" (sum numbersList)
+
 let x = ()
  
-     
+
+
+
 let t1 = 
     [ 
-        1, 2, 3 
+        1, 2, 3
+        4, 5, 6
         7, 8, 9
-        8, 7, 6
-        2, 5, 7
     ]
 
 let tupleSum (x, y, z) = 
@@ -67,7 +68,13 @@ let plus5 a = sum2 5 a
 let plus5' = sum2 5
 
 
+let sum x y = z + y 
 
+let addFive = sum 5
+
+let finalCall = addFive 10
+
+`// 5 + 10 = 15`
 
 
 
