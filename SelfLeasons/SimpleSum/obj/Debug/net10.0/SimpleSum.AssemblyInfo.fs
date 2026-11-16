@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("SimpleSum")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31c45441e35992c4bd9c878f0890274c99700b8c")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+059c23b64e1a7b5467ba0b1818a209700ff85fc2")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("SimpleSum")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("SimpleSum")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
