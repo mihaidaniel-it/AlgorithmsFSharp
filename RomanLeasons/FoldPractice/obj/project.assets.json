@@ -113,9 +113,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielmihai/Documents/F# /RomanLeasons/FoldPractice/FoldPractice.fsproj",
-      "projectName": "FoldPractice",
-      "projectPath": "/Users/danielmihai/Documents/F# /RomanLeasons/FoldPractice/FoldPractice.fsproj",
+      "projectUniqueName": "/Users/danielmihai/Documents/F# /RomanLeasons/FoldPractice/tempCodeRunnerFile.fsproj",
+      "projectName": "tempCodeRunnerFile",
+      "projectPath": "/Users/danielmihai/Documents/F# /RomanLeasons/FoldPractice/tempCodeRunnerFile.fsproj",
       "packagesPath": "/Users/danielmihai/.nuget/packages/",
       "outputPath": "/Users/danielmihai/Documents/F# /RomanLeasons/FoldPractice/obj/",
       "projectStyle": "PackageReference",

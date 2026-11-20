@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("FoldPractice")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b7b23de3f0685d74d892bfc2e45c49c6252c674")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+528c40ceb54fd61033548b6e5fa04c533e8c3048")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("FoldPractice")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("FoldPractice")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

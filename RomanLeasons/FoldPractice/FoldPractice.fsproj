@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+      <Compile Include="DesigningWithTypes.fs" />
+    <Compile Include="ThinkingFunctionality.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
