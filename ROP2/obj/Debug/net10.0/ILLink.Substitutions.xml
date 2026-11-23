@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="ROP2">
+    <resource name="FSharpSignatureData.ROP2" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.ROP2" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.ROP2" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.ROP2" action="remove"></resource>
+    <resource name="FSharpOptimizationData.ROP2" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.ROP2" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.ROP2" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.ROP2" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.ROP2" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.ROP2" action="remove"></resource>
+  </assembly>
+</linker>
