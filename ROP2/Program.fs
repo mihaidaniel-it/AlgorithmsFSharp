@@ -11,13 +11,23 @@ type Product = {
 type DomainErrors = 
     | FileNotExist of path: string
     | EmptyFile
+    | UnexpectedError of message: string
 
 let handleError error =
     match error with
     | FileNotExist path -> printfn "File not exist: %s" path
     | EmptyFile -> printfn "File has no values"
+    | UnexpectedError message -> printfn "Unexpected error: %s" message
+
+// Если внутри функции f вылетит исключение — превращаем его в Error
+let tryCatch f x =
+    try
+        f x
+    with ex ->
+        Error (UnexpectedError ex.Message)
 
 let pathFile = Path.GetFullPath("ROP2/products.txt")
+
 
 let getFile (pathFile: string) =
     match File.Exists(pathFile) with
@@ -53,17 +63,17 @@ let printProducts (productsList: Product list) =
 
     printList productsList
 
+let handleResult result =
+    match result with
+    | Ok () -> ()
+    | Error error -> handleError error
+
 
 let runProgramm (pathFile: string) = 
     Ok pathFile
-    |> Result.bind getFile
-    |> Result.bind parseFile
+    |> Result.bind (tryCatch getFile)
+    |> Result.bind (tryCatch parseFile)
     |> Result.map printProducts
-    |> fun result -> 
-        match result with
-        | Ok () -> ()
-        | Error error -> handleError error
-        // Доделаю
-    
-
+    |> handleResult
+ 
 runProgramm pathFile
