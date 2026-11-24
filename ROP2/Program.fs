@@ -19,12 +19,10 @@ let handleError error =
     | EmptyFile -> printfn "File has no values"
     | UnexpectedError message -> printfn "Unexpected error: %s" message
 
-// Если внутри функции f вылетит исключение — превращаем его в Error
 let tryCatch f x =
     try
         f x
-    with ex ->
-        Error (UnexpectedError ex.Message)
+    with ex -> Error (UnexpectedError ex.Message)
 
 let pathFile = Path.GetFullPath("ROP2/products.txt")
 
@@ -36,6 +34,7 @@ let getFile (pathFile: string) =
 
 // Преобразование массива в список товаров
 let parseFile (fileLines: string array) =
+// Cразу array в list и далее делать фукнции
     match fileLines with 
     | [||] -> Error EmptyFile
     | _ ->
@@ -52,6 +51,7 @@ let parseFile (fileLines: string array) =
         |> Array.toList
         |> Ok
 
+// Добавить в rec printProducts, убрать вложенную функцию и сделать единну
 let printProducts (productsList: Product list) = 
     let rec printList (values: Product list) =
         match values with
@@ -63,17 +63,18 @@ let printProducts (productsList: Product list) =
 
     printList productsList
 
-let handleResult result =
-    match result with
-    | Ok () -> ()
-    | Error error -> handleError error
+// let handleResult result =
+//     match result with
+//     | Ok () -> ()
+//     | Error error -> handleError error
 
-
+// mapError
 let runProgramm (pathFile: string) = 
     Ok pathFile
     |> Result.bind (tryCatch getFile)
     |> Result.bind (tryCatch parseFile)
     |> Result.map printProducts
-    |> handleResult
+    |> ignore
  
 runProgramm pathFile
+// Убрать Ok и bind станет не нужным
