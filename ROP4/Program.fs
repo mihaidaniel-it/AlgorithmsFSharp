@@ -99,7 +99,7 @@ let collectProducts products =
     ) (Ok [])
 
 let parseFile =
-    Array.toList 
+    Array.toList
     >> ifFileNotEmpty
     >> Result.map splitLines
     >> Result.map processLines
