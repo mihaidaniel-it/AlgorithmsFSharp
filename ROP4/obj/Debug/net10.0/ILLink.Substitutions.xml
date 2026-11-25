@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="ROP4">
+    <resource name="FSharpSignatureData.ROP4" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.ROP4" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.ROP4" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.ROP4" action="remove"></resource>
+    <resource name="FSharpOptimizationData.ROP4" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.ROP4" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.ROP4" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.ROP4" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.ROP4" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.ROP4" action="remove"></resource>
+  </assembly>
+</linker>
