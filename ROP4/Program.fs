@@ -31,7 +31,7 @@ let tryCatch f x =
         ex -> Error (UnexpectedError ex.Message)
 
 // Путь до файла товаров
-let pathFile = Path.GetFullPath("ROP3/products.txt")
+let pathFile = Path.GetFullPath("ROP4/products.txt")
 
 
 // Получение массива строк из файла
@@ -98,18 +98,12 @@ let collectProducts products =
         | _, Error error -> Error error
     ) (Ok [])
 
-// Композиция
-let validateAndSplit =
-    ifFileNotEmpty >> Result.map splitLines
-
-let processAndCollect =
-    processLines >> collectProducts
-
-let parseFile (fileLines: string array) =
-    fileLines
-    |> Array.toList
-    |> validateAndSplit
-    |> Result.bind processAndCollect
+let parseFile =
+    Array.toList 
+    >> ifFileNotEmpty
+    >> Result.map splitLines
+    >> Result.map processLines
+    >> Result.bind collectProducts
 
 // Форматированный вывод товаров
 let rec printProducts (values: Product list) =
