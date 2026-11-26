@@ -1,0 +1,3 @@
+Cheese;5.00;5
+Apple;3.20;2
+Bread;2.50;7
