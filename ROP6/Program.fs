@@ -14,10 +14,8 @@ type DomainErrors =
 
 let handleError error =
     match error with
-    | FileNotExist path ->
-        printfn "File not exist: %s" path
-    | UnexpectedError message ->
-        printfn "Unexpected error: %s" message
+    | FileNotExist path -> printfn "File not exist: %s" path
+    | UnexpectedError message -> printfn "Unexpected error: %s" message
 
 let filePathsList = [
     Path.GetFullPath("ROP6/products.txt");

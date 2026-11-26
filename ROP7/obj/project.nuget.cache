@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Oy2x6RtAduQ=",
+  "success": true,
+  "projectFilePath": "/Users/danielmihai/Documents/F# /ROP7/ROP7.fsproj",
+  "expectedPackageFiles": [
+    "/Users/danielmihai/.nuget/packages/fsharp.core/10.1.401/fsharp.core.10.1.401.nupkg.sha512"
+  ],
+  "logs": []
+}
