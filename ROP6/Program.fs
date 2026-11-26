@@ -46,7 +46,6 @@ let runProgramm =
   >> Result.map printProducts
   >> Result.mapError handleError
   >> ignore
-
 runProgramm "ROP6/products_empty.txt"
 runProgramm "ROP6/products.txt"
 runProgramm "ROP6/products_error.txt"
