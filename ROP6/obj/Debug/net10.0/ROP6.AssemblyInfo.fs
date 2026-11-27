@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("ROP6")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d804b4fc3f84a7d27262c9b665814caf7ea7963")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99df4e5a63d8e4313992476991c8716f0356c7d6")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("ROP6")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("ROP6")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
